@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "format": "prettier --write .",
+    "lint:format": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -34,6 +36,7 @@
     "@storybook/testing-library": "^0.2.2",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
+    "prettier": "^3.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.5.1",
